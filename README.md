@@ -1,4 +1,4 @@
-# Lab-1
+lab 1
 #Mausham Sigdel || 081BEL046
 
 1.write a python code that deletes all the duplicate elements from the list and prints the unique elements.
@@ -7,11 +7,17 @@ list=[1,2,1,2,3,4,5,5,4,6,7]
 print("The list without duplicates are:")
 print(set(list))
 
-2.# write a program that prints all even numbers between 1 to 100 using a loop
+2. Create a tuple of 10 integer. write a program to display the maximum and minimum number from tuple.
+t = (10,20,30,40)
+l = []
+import random
+for i in range(10):
+	l.append(random.randint(1,101))
+print(l)
+t = tuple(l)
+print(f"max value : {max(t)}")
+print(f"min value : {min(t)}")
 
-for i in range(2,100):
-    if i%2==0:
-        print(i)
 
 3.write a python program that accepts a list and returns a new list with only the even numbers from the original list.
 
@@ -248,4 +254,10 @@ elif choice == '2':
 
 elif choice == '3':
     result = n
+
        
+
+
+
+
+
